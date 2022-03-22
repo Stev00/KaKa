@@ -1,0 +1,61 @@
+install python
+install git
+pip install pillow
+pip install pytesseract
+pip install pygetwindow
+pip install pypiwin32
+
+
+install tesseract-ocr-w64-setup-v5.0.0-alpha.20200223.exe
+C:\python3.9.1\Lib\site-packages\pytesseract\pytesseract.py-->cmd-->r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+chi_sim.traineddata-copy->C:\Program Files\Tesseract-OCR\tessdata
+
+github
+git config --global user.name "stev00"
+git config --global user.email "zhangdansan@gmail.com"
+ssh-keygen -t rsa -C "zhangdansan@gmail.com" 一直回车
+ssh-keygen -t rsa -b 4096 -C "zhangdansan@gmail.com"
+.pub加入github账号
+
+gnirehtet-rust-win64
+
+cmd 管理员方式运行
+WAN_LOCAL rename
+
+
+
+
+
+ssh -v git@github.com
+ssh -T git@github.com
+
+
+HOME
+D:\Cadence\SPB_Data 变化了
+setx HOME "C:\Users\zhangtong"
+
+Git安装目录下的/etc/nsswitch.conf中改为db_home: /%H
+#db_home: env windows cygwin desc
+
+
+
+git remote rm origin
+git remote add origin git@github.com:Stev00/KaKa.git
+git remote -v
+
+git –bare init
+git status
+git config --list
+
+
+git add .
+git commit -m "wrote a readme file."
+git push origin master
+
+
+
+ssh-agent -s
+win+R打开services查看 “OpenSSH Authentication Agent” 服务是否开启
+ssh-add C:\Users\zhangtong\.ssh\id_rsa
+ssh-add D:\Cadence\SPB_Data\.ssh\id_rsa
+网页里添加pub文件SSH
