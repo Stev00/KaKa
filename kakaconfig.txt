@@ -14,20 +14,12 @@ github
 git config --global user.name "stev00"
 git config --global user.email "zhangdansan@gmail.com"
 ssh-keygen -t rsa -C "zhangdansan@gmail.com" 一直回车
-ssh-keygen -t rsa -b 4096 -C "zhangdansan@gmail.com"
 .pub加入github账号
 
 gnirehtet-rust-win64
 
 cmd 管理员方式运行
 WAN_LOCAL rename
-
-
-
-
-
-ssh -v git@github.com
-ssh -T git@github.com
 
 
 HOME
@@ -38,24 +30,18 @@ Git安装目录下的/etc/nsswitch.conf中改为db_home: /%H
 #db_home: env windows cygwin desc
 
 
-
-git remote rm origin
+crash后：
+git config --global user.name "stev00"
+git config --global user.email "zhangdansan@gmail.com"
+ssh-keygen -t rsa -C "zhangdansan@gmail.com" 一直回车
+.pub加入github账号
+删除本地，删除网页KaKa
+创建文件夹并git init
+网页创建版本库KaKa
 git remote add origin git@github.com:Stev00/KaKa.git
-git remote -v
-
-git –bare init
-git status
-git config --list
-
-
-git add .
+git add YZ.txt
 git commit -m "wrote a readme file."
 git push origin master
-
-
-
-ssh-agent -s
-win+R打开services查看 “OpenSSH Authentication Agent” 服务是否开启
-ssh-add C:\Users\zhangtong\.ssh\id_rsa
-ssh-add D:\Cadence\SPB_Data\.ssh\id_rsa
-网页里添加pub文件SSH
+其他复制进来
+git commit -m "wrote a readme file."
+git push origin master
