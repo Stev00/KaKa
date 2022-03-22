@@ -15,7 +15,8 @@ def use_phone_net():
     CMD('adb root')
     CMD('adb shell settings put global airplane_mode_on 0')
     CMD('adb shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state false')
-    #CMD('netsh interface set interface "WAN_LOCAL" disabled')
+    CMD('netsh interface set interface "WAN_LOCAL" disabled')
+    CMD('netsh interface set interface "NET_USB" enabled')
     time.sleep(3)
     CMD('adb -s N0AE270111 shell input keyevent 223') #mie
     print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'neting')
@@ -25,7 +26,8 @@ def unuse_phone_net():
     CMD('adb root')
     CMD('adb shell settings put global airplane_mode_on 1')
     CMD('adb shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state true')
-    #CMD('netsh interface set interface "WAN_LOCAL" enabled')
+    CMD('netsh interface set interface "WAN_LOCAL" enabled')
+    CMD('netsh interface set interface "NET_USB" disabled')
     time.sleep(3)
     CMD('adb -s N0AE270111 shell input keyevent 223') #mie
     print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'unnet')
