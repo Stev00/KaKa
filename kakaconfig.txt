@@ -45,3 +45,5 @@ git push origin master
 其他复制进来
 git commit -m "wrote a readme file."
 git push origin master
+git branch --set-upstream-to=origin/master master
+git pull
