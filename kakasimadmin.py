@@ -138,6 +138,7 @@ if __name__ == '__main__':
         now_localtime = time.strftime("%H:%M:%S", time.localtime())
         if start_time_am < now_localtime < end_time_am or start_time_pm < now_localtime < end_time_pm:
             use_phone_net()
+            time.sleep(5)
             print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'pulling...')
             CMD('git pull')
             with open('dakaYN.txt', 'rt') as file:
@@ -171,6 +172,7 @@ if __name__ == '__main__':
             else:
                 print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'Wrong DK Number,waiting...')
             unuse_phone_net()
+            time.sleep(5)
             time.sleep(random.randint(468,498))
         else:
             print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'out time waiting...')
