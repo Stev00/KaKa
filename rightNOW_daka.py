@@ -28,7 +28,7 @@ def use_phone_net():
     CMD('adb root')
     CMD('adb shell settings put global airplane_mode_on 0')
     CMD('adb shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state false')
-    CMD('netsh interface set interface "WAN_LOCAL" disabled')
+    #CMD('netsh interface set interface "WAN_LOCAL" disabled')
     time.sleep(3)
 
 def unuse_phone_net():
