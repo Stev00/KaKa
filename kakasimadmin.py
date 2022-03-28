@@ -87,6 +87,10 @@ def Git_push():
 
 def use_phone_net():
     CMD('adb root')
+    CMD('adb shell settings put global airplane_mode_on 1')
+    time.sleep(5)
+    CMD('adb shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state true')
+    time.sleep(7)
     CMD('adb shell settings put global airplane_mode_on 0')
     time.sleep(5)
     CMD('adb shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state false')
