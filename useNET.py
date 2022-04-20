@@ -37,7 +37,7 @@ def unuse_phone_net():
 if __name__ == '__main__':
     while True:
         #print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
-        n = input('swith0/1/9:')
+        n = input('0unnet,1netting,8usbnet,9gitpush:')
         if n == str(0):
             unuse_phone_net()
         elif n == str(1):
@@ -46,5 +46,20 @@ if __name__ == '__main__':
             #use_phone_net()
             Git_push()
             #unuse_phone_net()
+        elif n ==str(8):
+            CMD('adb -s N0AE270111 shell input keyevent 223') #mie
+            CMD('adb -s N0AE270111 shell input keyevent 224') #liang
+            CMD('adb -s N0AE270111 shell input swipe 344 1593 324 581') #jiesuo
+            print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'already jiesuo')
+            #CMD('adb -s N0AE270111 shell input swipe 344 1593 324 581') #zhujiemian
+            #CMD('adb -s N0AE270111 shell input tap 102 671') #66 29f HEX->DEC
+            CMD('adb shell am force-stop com.android.settings')
+            CMD('adb shell am start com.android.settings/com.android.settings.Settings')
+            CMD('adb -s N0AE270111 shell input tap 352 351') #160 15f HEX->DEC
+            CMD('adb -s N0AE270111 shell input tap 270 564') #10e 234 HEX->DEC
+            CMD('adb -s N0AE270111 shell input tap 651 381') #28b 17d HEX->DEC
+            CMD('adb shell am force-stop com.android.settings')
+            CMD('adb -s N0AE270111 shell input keyevent 223') #mie
+            print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'LCM mie')
         else:
             print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'Wrong N.')

@@ -4,7 +4,7 @@ TXM 相邻管脚频率要隔开，不能一样，如下:
 2TX->3/39RX
 7TX->41RX
 8TX->5RX
-电源、RF、MIPI、CLK单独颜色查看隔离问题
+电源(fen)、RF(lv)、MIPI(qing)、CLK(huang)单独颜色查看隔离问题
 相邻层检查
 信号线过孔包地，孤岛
 sar sensor 独立控制，干扰
@@ -37,10 +37,12 @@ TX
 4<66<3
 
 RX
-20/28 one SAW
+20/28 可以one SAW
 4<1<66
 
 
 13/20
 
 5/26
+
+input('swith',\n'1')
