@@ -45,4 +45,3 @@ RX
 
 5/26
 
-input('swith',\n'1')
