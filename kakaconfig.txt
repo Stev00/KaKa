@@ -47,3 +47,12 @@ git commit -m "wrote a readme file."
 git push origin master
 git branch --set-upstream-to=origin/master master
 git pull
+
+
+git config --global user.name "stev00"
+git config --global user.email "zhangdansan@gmail.com"
+ssh-keygen -t rsa -C "zhangdansan@gmail.com" 一直回车
+.pub加入github账号
+
+git clone https这个
+然后git commit，登录
