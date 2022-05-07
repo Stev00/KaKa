@@ -72,10 +72,10 @@ def Operate_Phone():
     CMD('adb -s N0AE270111 shell am force-stop com.tencent.wework')
     CMD('adb -s N0AE270111 shell am start -n com.tencent.wework/.launch.LaunchSplashActivity')
     time.sleep(5)
-    CMD('adb -s N0AE270111 shell input tap 468 1505')
-    CMD('adb -s N0AE270111 shell input tap 356 303') #aidaka(3:586 299) 13:24A_12B 12:166_157 HEX->DEC
+    CMD('adb -s N0AE270111 shell input tap 443 1524')
+    CMD('adb -s N0AE270111 shell input tap 136 791') #aidaka(3:586 299) 13:24A_12B 12:166_157 HEX->DEC
     time.sleep(10)
-    CMD('adb -s N0AE270111 exec-out screencap -p > E:\pull\sc_d.png')
+    CMD('adb -s N0AE270111 exec-out screencap -p > E:\Software\Gitee\sc_d.png')
     CMD('adb -s N0AE270111 shell svc bluetooth disable')
     CMD('adb -s N0AE270111 shell input keyevent 223') #mie
     #CMD('adb -s N0AE270111 shell input keyevent 26') #power key
@@ -89,12 +89,12 @@ def Network_Reset():
     if len(gw.getWindowsWithTitle('gnirehtet')):
         gw.getWindowsWithTitle('gnirehtet')[0].close()
         time.sleep(2)
-        win32api.ShellExecute(0, 'open', 'E:\pull\RB_KaKa\gnirehtet', '','',1)
+        win32api.ShellExecute(0, 'open', 'E:\Software\Gitee\KaKa\gnirehtet', '','',1)
         time.sleep(2)
         #gw.getWindowsWithTitle('gnirehtet')[0].minimize()
         #time.sleep(2)
     else:
-        win32api.ShellExecute(0, 'open', 'E:\pull\RB_KaKa\gnirehtet', '','',1)
+        win32api.ShellExecute(0, 'open', 'E:\Software\Gitee\KaKa\gnirehtet', '','',1)
         time.sleep(2)
         #gw.getWindowsWithTitle('gnirehtet')[0].minimize()
         #time.sleep(2)
@@ -102,7 +102,7 @@ def Network_Reset():
 if __name__ == '__main__':
     print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'initing..')
     start_time_am = '08:01:00'
-    end_time_am =  '10:29:59'
+    end_time_am =  '10:0059'
     #end_time_am =  '17:49:59'
     start_time_pm = '18:00:00'
     end_time_pm =  '21:59:59'
