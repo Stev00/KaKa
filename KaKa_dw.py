@@ -102,9 +102,9 @@ def Network_Reset():
 if __name__ == '__main__':
     print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'initing..')
     start_time_am = '08:01:00'
-    end_time_am =  '10:0059'
+    end_time_am =  '10:29:59'
     #end_time_am =  '17:49:59'
-    start_time_pm = '14:00:00'
+    start_time_pm = '18:01:00'
     end_time_pm =  '21:59:59'
     n=1
     l=1
