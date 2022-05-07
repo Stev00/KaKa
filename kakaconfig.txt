@@ -7,7 +7,8 @@ pip install pypiwin32
 
 
 install tesseract-ocr-w64-setup-v5.0.0-alpha.20200223.exe
-C:\python3.9.1\Lib\site-packages\pytesseract\pytesseract.py-->cmd-->r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+C:\python3.9.1\Lib\site-packages\pytesseract\pytesseract.py-->open
+tesseract_cmd = 'tesseract'-->tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 chi_sim.traineddata-copy->C:\Program Files\Tesseract-OCR\tessdata
 
 github
@@ -56,3 +57,8 @@ ssh-keygen -t rsa -C "zhangdansan@gmail.com" 一直回车
 git clone https这个
 然后git commit，登录
 以后就不需要登陆了
+
+
+git add .
+git commit -m "Dansan"
+git push origin master
