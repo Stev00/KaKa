@@ -89,12 +89,12 @@ def Network_Reset():
     if len(gw.getWindowsWithTitle('gnirehtet')):
         gw.getWindowsWithTitle('gnirehtet')[0].close()
         time.sleep(2)
-        win32api.ShellExecute(0, 'open', 'E:\Software\Gitee\KaKa\gnirehtet', '','',1)
+        win32api.ShellExecute(0, 'open', r'.\gnirehtet', '','',1)
         time.sleep(2)
         #gw.getWindowsWithTitle('gnirehtet')[0].minimize()
         #time.sleep(2)
     else:
-        win32api.ShellExecute(0, 'open', 'E:\Software\Gitee\KaKa\gnirehtet', '','',1)
+        win32api.ShellExecute(0, 'open', r'.\gnirehtet', '','',1)
         time.sleep(2)
         #gw.getWindowsWithTitle('gnirehtet')[0].minimize()
         #time.sleep(2)
@@ -104,7 +104,7 @@ if __name__ == '__main__':
     start_time_am = '08:01:00'
     end_time_am =  '10:0059'
     #end_time_am =  '17:49:59'
-    start_time_pm = '18:00:00'
+    start_time_pm = '14:00:00'
     end_time_pm =  '21:59:59'
     n=1
     l=1
