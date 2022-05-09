@@ -8,7 +8,7 @@ def main():
     n=1
     start_time_am = '08:55:00'
     end_time_am =  '09:09:59'
-    start_time_pm = '18:00:00'
+    start_time_pm = '17:50:00'
     end_time_pm =  '18:10:59'
     pyautogui.FAILSAFE = False
     while True:
