@@ -156,8 +156,9 @@ if __name__ == '__main__':
                 Operate_Phone()
                 n += 1
                 content_daka = pytesseract.image_to_string(Image.open(r'..\sc_d.png'), lang='chi_sim')
+                time_now = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
                 with open('Result_daka.txt', 'at',encoding="utf-8") as file:
-                    file.write('Number Waiting'+str(n)+'_'+content_daka)
+                    file.write(str(time_now)+'Number Waiting'+str(n)+"\r\n"+content_daka+"\r\n"+'Finished...'+'\r\n')
                 Git_push()
                 print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),'Finish DK...')
                 gw.getWindowsWithTitle('gnirehtet')[0].close()
