@@ -1,0 +1,16 @@
+arm:
+openwrt
+
+x86:
+esxi,pve,
+
+centos7+->ruan router
+
+server->Centos7->宝塔->Docker->青龙面板
+端口、密码尽量不要用默认的
+
+
+j4125 210>211
+5105 
+
+PVE只需要在GitHub下载PVEtool就可以直接使用它打开直通，设置温度显示，设置国内更新源，直通硬盘等，不需要去使用ssh改配置文件

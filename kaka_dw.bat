@@ -1,1 +1,0 @@
-start cmd /k "cd /d E:\Software\Gitee\KaKa & KaKa_dw.py"
