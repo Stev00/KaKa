@@ -74,8 +74,9 @@ def Operate_Phone():
     time.sleep(5)
     CMD('adb -s N0AE270111 shell input tap '+str(int('11b',16))+' '+str(int('5f6',16)))#gongzuotai
     CMD('adb -s N0AE270111 shell input tap '+str(int('55',16))+' '+str(int('22e',16)))#daka
-#    CMD('adb -s N0AE270111 shell input tap '+str(int('x',16))+' '+str(int('y',16)))#am
-    CMD('adb -s N0AE270111 shell input tap '+str(int('179',16))+' '+str(int('308',16)))#pm
+    CMD('adb -s N0AE270111 shell input tap '+str(int('15f',16))+' '+str(int('23b',16)))#am上
+    CMD('adb -s N0AE270111 shell input tap '+str(int('179',16))+' '+str(int('308',16)))#pm下
+#    CMD('adb -s N0AE270111 shell input tap '+str(int('x',16))+' '+str(int('y',16)))#pm下更
     time.sleep(10)
     CMD('adb -s N0AE270111 exec-out screencap -p > E:\Software\Gitee\sc_d.png')
     CMD('adb -s N0AE270111 shell svc bluetooth disable')
