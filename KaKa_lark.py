@@ -72,8 +72,8 @@ def Operate_Phone():
     CMD('adb -s N0AE270111 shell am force-stop com.ss.android.lark')
     CMD('adb -s N0AE270111 shell am start -n com.ss.android.lark/com.ss.android.lark.main.app.MainActivity')
     time.sleep(5)
-    CMD('adb -s N0AE270111 shell input tap '+str(int('11b',16))+' '+str(int('5f6',16)))#gongzuotai
-    CMD('adb -s N0AE270111 shell input tap '+str(int('55',16))+' '+str(int('22e',16)))#daka
+    CMD('adb -s N0AE270111 shell input tap '+str(int('11b',16))+' '+str(int('5f6',16)))#goto gongzuotai
+    CMD('adb -s N0AE270111 shell input tap '+str(int('55',16))+' '+str(int('22e',16)))#goto daka
     CMD('adb -s N0AE270111 shell input tap '+str(int('15f',16))+' '+str(int('23b',16)))#am上
     CMD('adb -s N0AE270111 shell input tap '+str(int('179',16))+' '+str(int('308',16)))#pm下
 #    CMD('adb -s N0AE270111 shell input tap '+str(int('x',16))+' '+str(int('y',16)))#pm下更
