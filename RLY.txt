@@ -17,6 +17,9 @@ openwrt->Docker
 
 docker nas 阿里云 https://jackeroo.org/docker_openwrt_for_aliyundrive/
 
+
+wan口、LAN口、WiFi口、备份口。
+
 j4125 210>211
 5105 
 
