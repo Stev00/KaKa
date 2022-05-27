@@ -27,3 +27,13 @@ PVE只需要在GitHub下载PVEtool就可以直接使用它打开直通，设置�
  30M上行跑甜糖：60元/月+Openwrt京东签到：15元/月，一个月75。一年也有900块左右了
  
  https://jackeroo.org/mo_ren_fen_lei/hobies/x86_router/
+ 
+ 
+ 网关192.168.0.1
+ ikuai 192.168.0.1
+ PVE 192.168.0.2
+ 
+ 
+ ikuai带繁星功能 一天0.2
+ 
+ DSM7群晖
