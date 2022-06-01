@@ -1,13 +1,27 @@
-arm:
 openwrt
+https://www.right.com.cn/forum/thread-8106799-1-1.html
+sirpdboy 2021-9-15 \2021830养老
+源码仓库：https://github.com/coolsnowwolf/lede
+插件仓库：https://github.com/sirpdboy/sirpdboy-package
+**2022年3月20日之前【固件IP】：192.168.1.1 密码： password或者 密码空
+**2022年3月20日【统一固件IP】：192.168.8.1 密码无
+https://github.com/sirpdboy/openwrt/blob/master/README.md
+https://www.123pan.com/s/dS5A-By4qd提取码:SeY7
+自己编译https://v2cross.com/archives/2298
 
-x86:
-esxi,pve,
 
-pve->CentOS
+
+
+assW（你懂）、阿里DDNS、可道云、samb、docker（青龙）、aria2、网易云灰解等
+
+
+docker
+youtube esir 解释
+
+
 
 PVE设置https://zhuanlan.zhihu.com/p/347534427     https://github.com/ivanhao/pvetools
-server->Centos7->宝塔->Docker->青龙面板
+server->Centos7->宝塔->Docker->青龙面板2.10.13
 端口、密码尽量不要用默认的
 
 openwrt->Docker
@@ -29,9 +43,7 @@ PVE只需要在GitHub下载PVEtool就可以直接使用它打开直通，设置�
  https://jackeroo.org/mo_ren_fen_lei/hobies/x86_router/
  
  
- 网关192.168.0.1
- ikuai 192.168.0.1
- PVE 192.168.0.2
+
  
  
  ikuai带繁星功能 一天0.2
