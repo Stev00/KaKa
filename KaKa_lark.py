@@ -75,6 +75,7 @@ def Operate_Phone():
     CMD('adb -s N0AE270111 shell input tap '+str(int('165',16))+' '+str(int('5f3',16)))#goto gongzuotai
     CMD('adb -s N0AE270111 shell input tap '+str(int('55',16))+' '+str(int('22e',16)))#goto daka
     CMD('adb -s N0AE270111 shell input tap '+str(int('15f',16))+' '+str(int('23b',16)))#am上
+#    CMD('adb -s N0AE270111 shell input tap '+str(int('19a',16))+' '+str(int('23b',16)))#am上
     CMD('adb -s N0AE270111 shell input tap '+str(int('179',16))+' '+str(int('308',16)))#pm下
     CMD('adb -s N0AE270111 shell input tap '+str(int('258',16))+' '+str(int('254',16)))#pm下更
     CMD('adb -s N0AE270111 shell input tap '+str(int('206',16))+' '+str(int('36b',16)))#pm下更确定
