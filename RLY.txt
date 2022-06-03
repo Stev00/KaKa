@@ -13,6 +13,22 @@ https://www.123pan.com/s/dS5A-By4qd提取码:SeY7
 自己编译https://v2cross.com/archives/2298
 https://www.bilibili.com/video/BV1SL411n7xG
 https://www.bilibili.com/video/BV1sL411b7Hp/
+
+deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+ 
+deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+ 
+deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+ 
+deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+ 
+deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multivers
+
 选择LuCI 配置：  全部
 -----------------------------------------------------------------------------------------
 LuCI ---> Applications ---> luci-app-accesscontrol  #访问时间控制
