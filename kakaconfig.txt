@@ -11,6 +11,39 @@ C:\python3.9.1\Lib\site-packages\pytesseract\pytesseract.py-->open
 tesseract_cmd = 'tesseract'-->tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 chi_sim.traineddata-copy->C:\Program Files\Tesseract-OCR\tessdata
 
+
+git clone https://gitee.com/stev00/KaKa.git
+进入kaka文件夹cmd
+git add .
+git commit -m "local number"
+git config --global user.name "stev00"
+git config --global user.email "zhangdansan@gmail.com"
+git commit -m "local number"
+git push origin master
+输入用户名及密码
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 github
 git config --global user.name "stev00"
 git config --global user.email "zhangdansan@gmail.com"
